@@ -1,0 +1,4 @@
+A horizontal spring with stiffness 20 N/m has a relaxed length of 4 m. A mass of 0.5 kg attached to the spring travels with a speed of 3 m/s to stretch the spring 2 m. 
+Create a spring, mass, wall, and the floor. 
+Animate the oscillation of the spring-mass system for 3 seconds by showing changes in velocity and position. 
+Plot the changes in kinetic energy and potential energy of the spring vs. the time. 

@@ -1,0 +1,2 @@
+A skilled shooter tries to hit an apple with the Tomahawk arrow. At the same time, as he fires, the apple falls freely. If the velocity of the arrow is <97,0,0> m/s, heights for both (apple and tomahawk) are <0,100,0> m and horizontal distance between them is 400m, calculate the time when the arrow will hit the apple and visualize it as a simulation. 
+Create an arrow and apple as defined. Define a loop to update the speeds and positions of both (for both apple and arrow) including the effect of gravity. Plot the graph (Position Vs Time) 

@@ -1,0 +1,4 @@
+Write an iterative computational model to predict and display the motion of a block of mass 60g that is released freely from rest on the top of a vertical spring of stiffness 8 N/m and relaxed length 20cm. 
+Use initial conditions that represent the block at position <0,30,0> released from rest on top of the spring. 
+Define a loop that moves the block under the force of gravity and spring force. 
+Update the axis of the spring. 
