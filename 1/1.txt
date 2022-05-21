@@ -1,0 +1,5 @@
+ball = sphere(pos=vector(0,0,0), radius=0.2, color=color.cyan) wallR = box(pos=vector(1,1,0), size=vector(0.001,5,1), color=color.green) ball.velocity = vector(0.3,0.3,0) deltat = 0.05 Question: A cyan ball of radius 0.2 m, initially at the origin, has
+been thrown toward a thin orange wall l...
+Expert Answer
+
+t = 0 while t < 5 : rate(100) if ball.pos.x > (wallR.pos.x - 0.2): # 0.2 is reduced because of the ball radius ball.velocity.x = -ball.velocity.x ball.pos = ball.pos + ball.velocity*deltat t = t + deltat print("Ball position after 5 seconds : ",ball.pos)
